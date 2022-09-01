@@ -1,0 +1,12 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0"
+dotenv: .env
+wallets:
+  from_key_presenter_1: ${PRIVATE_KEY_PRESENTER_1}
+  from_key_presenter_2: ${PRIVATE_KEY_PRESENTER_2}
+  from_key_presenter_3: ${PRIVATE_KEY_PRESENTER_3}
+  from_key_presenter_4: ${PRIVATE_KEY_PRESENTER_4}
